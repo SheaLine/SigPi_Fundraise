@@ -10,7 +10,7 @@ recur_live_price = 'price_1N4CcAHiDjhflRKUmVIdrS7l'
 
 
 stripe.api_key = 'sk_test_51N4BDbHiDjhflRKUHquvU8LYLFJCyhfvMn6LzQP0Z7vRVGsebsW9647AKj24Jrp8175s6BjCfP1KAMZt2gXPjvg900NybbpdFP'#os.environ.get('STRIPE_SECRET_KEY')
-YOUR_DOMAIN = "http://127.0.0.1:5000"
+YOUR_DOMAIN = "https://shealine.github.io/SigPi_Fundraise/"
 
 @app.route('/')
 def home():

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sigma Pi Iota Eta</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .letter {
+      margin-bottom: 30px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .donate-button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      color: #fff;
+    }
+
+    .one-time {
+      background-color: #ff9900;
+    }
+
+    .monthly {
+      background-color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Sigma Pi Iota Eta</h1>
+    <div class="letter">
+      <p>Dear friends and family,</p>
+      <p>We are reaching out for a contribution to our rapidly growing Fraternity. Since our establishment in 2009, we have been steadily growing. Due to the recent pandemic, it was stunted. Our organization has always been committed to promoting brotherhood, leadership, and service, and we cannot do that without the necessary funds to support our initiatives. We need to come together as a fraternity to make sure that we have the resources we need to continue making a positive impact in our community. Our fraternity, like many other organizations, has been significantly impacted by the pandemic. It has also had a significant impact on our fraternity's finances. With the decrease in membership, our dues and other income sources have decreased, making it difficult to cover our expenses. This resulted in us losing houses and financial capital to organize events or contribute back to the community. Despite this, we made it a priority to continue everything that our alumni have built for us. Our members in Sigma Pi have not had the atypical college experience, we signed up to be a part of a growing organization which takes more work than usual. If anything, this challenging year has only brought us closer together and ignited a new drive to keep expanding. This year has been the opposite. This has been the first year that we have been focused on maintaining what we have rather than fighting to stay alive. </p>
+      <p>Our determination  has paid off as we are now rapidly growing again and starting to get back up on our feet. We are so excited to have welcomed 8 new brothers from our winter class and another 8 brothers from our spring class. Our numbers are growing and with that we need funding. As everything we have done has been internally funded by us we’d like to have more flexibility and capital to do more. We have set goals for our chapter to be able to have more alumni events, brotherhoods, and rush events to keep our numbers growing and to build a strong structure for the future.</p>
+      <p>College is an opportunity to grow and be independent. It is a time in our lives to branch out and discover more about yourself. Through Sigma Pi a well rounded fraternity we engage in various activities such as volunteer work, gatherings, and celebratory events. Our alumni events are some of the most cherishing events we have. It's an opportunity for older graduated brothers to pass down wisdom and experiences onto our younger brothers. Alumni events are also the only lifeline we have in order to keep our graduated members active in Sigma Pi.  Their presence is so important to the future of our fraternity and we hope to organize more events with them. In order to have  these wonderful events, funding is necessary.</p>
+      <p>As a chapter, we are working towards having an alumni camping event in Big Sur this summer. These kinds of events will be occurring much more often with sufficient funding. All of your donations will go to events that have a purpose. We want to thank you for your continued support of our fraternity and its members. With your help, we can overcome these challenges and continue to make a positive impact in our community!</p>
+      <p>Thank you for considering helping.</p>
+      <p>Sincerely,</p>
+      <p>The Iota Eta Actives</p>
+    </div>
+    <div class="buttons">
+      <form action="/create-checkout-session" method="post">
+        <input type="hidden" name="payment_type" value="one_time">
+        <button type="submit" id="checkout-button" class="donate-button one-time">One Time Donation</button>
+      </form>
+      <form action="/create-checkout-session" method="post">
+        <input type="hidden" name="payment_type" value="monthly">
+        <button type="submit" id="checkout-button" class="donate-button monthly">Monthly Donation</button>
+    </div>
+  </div>
+</body>
+</html>
